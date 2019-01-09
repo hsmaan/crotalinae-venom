@@ -1,5 +1,5 @@
 # Crotalinae (Pit Viper) Venom Composition and Toxicity Correlation
-In this exploratory analysis, the venom composition data for the Crotalinae subfamily is used to investigate the correlation of genome evolution with venom composition and venom toxicity. This analysis contains the following: 
+In this exploratory analysis, the venom composition data for the Crotalinae subfamily of snakes is used to investigate the correlation of genome evolution with venom composition and venom toxicity. This analysis contains the following: 
   
 1. Determination of the optimal marker gene for phylogenetic tree
 reconstruction using maximum likelihood estimation and bootstrapping.
