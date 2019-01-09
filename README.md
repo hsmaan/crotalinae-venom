@@ -12,9 +12,7 @@ and toxicity level.
 Moran's I spatial auto-correlation, as well as a phylogenetic trait mapping for venom
 toxicity level.
       
-4. Considering phylogenetic signalling effects, phylogenetic generalized least
-squares will be used to determine correlation between venom composition
-factors and toxicity level. If signalling effects are not significant, other
-correlation methods may be considered. 
+4. Correlation analysis between Crotalinae venom composition factors (protein families)
+and toxicity level.
 
 This study aims to provide insight into the correlation between Crotalinae evolution, venom composition, and toxicity. Insights into how venom composition changes with evolution could be useful, as further analysis could closely examine these changes to find novel genes associated with venom proteome composition. Correlation between venom composition and toxicity could provide toxicological insights into how protein composition and protein-protein interactions contribute to overall toxicity. Therefore, this analysis could serve as a starting point for investigations of a greater scope. 
