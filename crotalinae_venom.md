@@ -6,7 +6,7 @@ University of Guelph
 
 ------------------------------------------------------------------------
 
-#### 1. INTRODUCTION: THE UTILITY OF SNAKE VENOM
+### 1. INTRODUCTION: THE UTILITY OF SNAKE VENOM
 
 Venomous snakes use an integrated combination of proteins, most commonly referred to as venom, to subdue their prey and ward off predators (Tasoulis & Isbister, 2017). Different snakes have venom of varying protein composition, which in turn leads to varying toxicological properties (Tasoulis & Isbister, 2017). However, many of the proteins found in snake venom have pharmacological and medicinal applications as well (Ojeda et al., 2018). Toxins extracted from snake venom have been used to develop various pharmaceutical compounds, such as captopril for the treatment of hypertension (Ojeda et al., 2018). Therefore, an understanding of the properties of snake venom could have great implications for drug development. A thorough knowledge of the proteomics, toxicology, and evolution of snake venom are all important considerations for the study of snake venom toxins. Venomous snakes that have implications for pharmacological development are typically in the following families: Atractaspidae, Elapidae, and Viperidae (Tasoulis & Isbister, 2017). Vipers, snakes from the Viperidae family, are further classified into two subfamilies based on the presence of a heat-sensing and temperature regulating pit gland (Bakken et al., 2018). Vipers that have this gland are classified into the Crotalinae family (Pit vipers), and those that do not are classified into the Viperinae family (True Vipers) (Tasoulis & Isbister, 2017).
 
@@ -57,7 +57,7 @@ library(markdown)
 
 ------------------------------------------------------------------------
 
-#### 2. DATASETS: CROTALINAE VENOM COMPOSITION AND VENOM TOXICITY
+### 2. DATASETS: CROTALINAE VENOM COMPOSITION AND VENOM TOXICITY
 
 As outlined in the introduction, one of the main data sets involves protein composition data taken from a review study done by Tasoulis and Isbister (Tasoulis & Isbister, 2017). The proteome compositions of the venom are based on a certain number of abundant protein families, such as SVSP - snake venom serine protease. For the purposes of this analysis, only the abbreviations of these protein families will be used. The complete list of protein families considered with their full names is included in the Supplementary Information - Appendix A. This data set contains the protein families as an abundance percentage of the total venom proteome, based on the species of Pit vipers (Crotalinae). This data set was not able to web-scraped using the rvest package, as the XPATH for the HTML table was not clearly defined on PubMed, and therefore it was copied and pasted into an Excel csv file on December 3, 2018 from the following url: "<https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5618223/table/toxins-09-00290-t003/?report=objectonly>".
 
@@ -67,7 +67,7 @@ Genomic marker data for phylogenetic tree reconstruction will be taken from the 
 
 ------------------------------------------------------------------------
 
-#### 3. DATA EXPLORATION AND QUALITY CONTROL
+### 3. DATA EXPLORATION AND QUALITY CONTROL
 
 The venom composition data set had to be cleaned and imputed in various ways beforehand, and the steps taken are outlined in Supplementary Materials- Appendix B. We can import the cleaned data set into our environment, as long as the file is in our working directory. Please ensure this is the case before this step:
 
@@ -198,7 +198,7 @@ Great, we have our cleaned and processed toxicity data set. After selection of t
 
 ------------------------------------------------------------------------
 
-#### 4. MAIN SOFTWARE TOOLS: METHODOLOGY
+### 4. MAIN SOFTWARE TOOLS: METHODOLOGY
 
 There are many different R packages used in this analysis (R Core Team, 2018). Specialty packages, such as rvest, are used for unique tasks throughout the script. However, for the main analysis, there are 3 packages that are used extensively throughout and/or have potential replacements: phangorn, phytools, and muscle. A short summary of the rationale behind choosing each package is outlined:
 
