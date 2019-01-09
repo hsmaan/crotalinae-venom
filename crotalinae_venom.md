@@ -1,6 +1,8 @@
 Phylogenetic Analysis of Venom Proteome Composition and Toxicity for the Crotalinae Subfamily of Snakes
 ================
-Hassaan Maan
+Author: Hassaan Maan
+
+University of Guelph
 
 ------------------------------------------------------------------------
 
