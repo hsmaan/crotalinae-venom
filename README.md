@@ -18,3 +18,6 @@ and toxicity level.
 This study aims to provide insight into the correlation between Crotalinae evolution, venom composition, and toxicity. Insights into how venom composition changes with evolution could be useful, as further analysis could closely examine these changes to find novel genes associated with venom proteome composition. Correlation between venom composition and toxicity could provide toxicological insights into how protein composition and protein-protein interactions contribute to overall toxicity. 
 
 The rendered markdown of the analysis is in the primary directory as **crotalinae_venom.md**, and the R markdown file is in the *rmarkdown* directory as **crotalinae_venom.Rmd**. 
+
+## License
+Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0).
